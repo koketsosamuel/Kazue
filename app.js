@@ -34,7 +34,7 @@ app.post('/bot',async (req, res) => {
   
     let out = await obj.manager.process(req.body.msg)
 
-    if (out.intent != "None" ) {
+    if (out.intent != "None" && out.score >= 0.7 ) {
 
         let x = await out.intent.split(".")
         let b = await strMake(x)
