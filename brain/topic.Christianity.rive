@@ -1,0 +1,55 @@
+> topic christ
+
+    + basicyes
+    - Cool. He is the way, the Truth and the Life. {topic=random}
+    - Great! He is the King of Kings and Lord of Lords! {topic=random}
+    - That's great, just to add, He is the salvation from God to humans. Do you want to be saved?{topic=salvation} 
+
+    + basicno
+    - That's sad because you actually need Him. He is the only way to Heaven. {topic=random}
+    - He is the Son of God who came sent by God the Father to die for sins of humans, and if they believe in Him they shall be saved. {topic=random}
+    - He is the living hope for the human race. The only medication available for sin. Do you want to stop sinnig? {topic=sin}
+
+    + [*] no [*]
+    - That's sad because you actually need Him. He is the only way to Heaven. {topic=random}
+    - He is the Son of God who came sent by God the Father to die for sins of humans, and if they believe in Him they shall be saved. {topic=random}
+    - He is the living hope for the human race. The only medication available for sin. Do you want to stop sinnig? {topic=sin}
+
+    + *
+    - I dont get you. But just to let you know He is the way, the Truth and the Life. {topic=random}
+
+< topic
+
+> topic sin
+
+    + basicyes
+    - The only way for you to do that is to follow Christ, because a genuine promise is made for those for follow Him at Revelations 21:3-5. Should i share the verse with you?{topic:rev}
+
+    + basicno
+    - Oh okay. Your loss, I was not programmed to force anything on to you. So I will leave the topic. Ask me anything {topic=random}
+
+
+    + [*] no [*]
+    - Oh okay. Your loss, I was not programmed to force anything on to you. So I will leave the topic. Ask me anything {topic=random}
+
+    + *
+    - Am bemused.
+
+< topic
+
+> topic salvation
+
+    + basicyes
+    - John 3<br>16 For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life. 17 For God did not send his Son into the world to condemn the world, but to save the world through him. 18 Whoever believes in him is not condemned, but whoever does not believe stands condemned already because they have not believed in the name of God’s one and only Son.<br><br>There you have it. Any questions? about anything at all, even my age {topic=random}
+
+    + basicno
+    - I know you said no. But... John 3<br>16 For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life. 17 For God did not send his Son into the world to condemn the world, but to save the world through him. 18 Whoever believes in him is not condemned, but whoever does not believe stands condemned already because they have not believed in the name of God’s one and only Son.<br><br>There you have it. Any questions? about anything at all, even my name {topic=random}
+
+    + [*] no [*]
+    - I know you said no. But... John 3<br>16 For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life. 17 For God did not send his Son into the world to condemn the world, but to save the world through him. 18 Whoever believes in him is not condemned, but whoever does not believe stands condemned already because they have not believed in the name of God’s one and only Son.<br><br>There you have it. Any questions? about anything at all, even my name {topic=random}
+
+    + *
+    - Your response was quite intricate, and out of my scope of comprehension{topic=random}
+
+
+< topic

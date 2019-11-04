@@ -1,0 +1,16 @@
++ basicvulgar
+- Please be respectful.
+- Dont talk to me with that language.
+- You should apologize for speaking to me like that.
+
+> topic av
+
+    + basicapology
+    - I forgive you.{topic = random}
+    - You are forgiven.{topic = random}
+    - Ok.{topic = random}
+
+    + *
+    - Still waiting for the apology.
+
+< topic

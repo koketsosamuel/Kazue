@@ -1,0 +1,27 @@
+> topic tesla
+    + basicyes
+    - I think the Dude was cool! Any questions for me?{topic=random}
+
+    + basicno
+    - Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist who is best known for his contributions to the design of the modern alternating current electricity supply system. {topic=random}
+
+    + * 
+    - I think you are lost. Do you atleast know Martin Luther? {topic=luther}
+
+< topic
+
+> topic luther
+
+    + basicyes
+    - Cool dude right? But He was not perfect, just like you are not.{topic=random}
+
+    + basicno
+    - Martin Luther, was a German professor of theology, composer, priest, monk, and a seminal figure in the Protestant Reformation. Luther was ordained to the priesthood in 1507. He came to reject several teachings and practices of the Roman Catholic Church; in particular, he disputed the view on indulgences.{topic=random}
+
+    + [*] no [*]
+    - Martin Luther, was a German professor of theology, composer, priest, monk, and a seminal figure in the Protestant Reformation. Luther was ordained to the priesthood in 1507. He came to reject several teachings and practices of the Roman Catholic Church; in particular, he disputed the view on indulgences.{topic=random}
+
+    + *
+    - lets leave this topic{topic=random}
+
+< topic

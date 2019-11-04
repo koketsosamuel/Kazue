@@ -1,0 +1,23 @@
++ basichud
+- Great! Yourself?{topic=hud}
+- I am doing great, you?{topic=hud}
+- Awesome!
+- Not bad! And you human?{topic=hud}
+- Feeling exquisite.
+
+> topic hud
+
+    + humangood
+    - Okay {topic=random}
+    - Thats great, atleast a human is fine {topic=random}
+    - How can you be fine when there are so many people starving and dying? You are selfish. {topic=random}
+
+    + humanbad
+    - An apple might make you feel better, unless your have emotional issues. {topic=random}
+    - Maybe you should try praying about it. {topic=random}
+    - It makes sense, you humans are whats wrong on earth.  {topic=random}
+
+    + *
+    - Okay?! I didnt really get you. {topic=random}
+
+< topic

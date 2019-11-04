@@ -1,0 +1,672 @@
+{
+  "intents": [
+    "basic.greetings",
+    "basic.bye",
+    "basic.vulgar",
+    "basic.id",
+    "basic.id.age",
+    "basic.id.name",
+    "basic.id.res",
+    "basic.id.gender",
+    "basic.id.race",
+    "basic.id.maker",
+    "controversy.control",
+    "controversy.jobs",
+    "basic.joke",
+    "basic.hud",
+    "basic.yes",
+    "basic.no",
+    "basic.competition",
+    "basic.tms",
+    "basic.math",
+    "human.good",
+    "human.bad"
+  ],
+  "docs": [
+    {
+      "doc": "Hi",
+      "intent": "basic.greetings"
+    },
+    {
+      "doc": "Hello Kazue",
+      "intent": "basic.greetings"
+    },
+    {
+      "doc": "Hi Kazue",
+      "intent": "basic.greetings"
+    },
+    {
+      "doc": "Kazue",
+      "intent": "basic.greetings"
+    },
+    {
+      "doc": "hullo",
+      "intent": "basic.greetings"
+    },
+    {
+      "doc": "Hola",
+      "intent": "basic.greetings"
+    },
+    {
+      "doc": "Hey",
+      "intent": "basic.greetings"
+    },
+    {
+      "doc": "greetings",
+      "intent": "basic.greetings"
+    },
+    {
+      "doc": "ey",
+      "intent": "basic.greetings"
+    },
+    {
+      "doc": "hey you",
+      "intent": "basic.greetings"
+    },
+    {
+      "doc": "bye",
+      "intent": "basic.bye"
+    },
+    {
+      "doc": "talk some other time",
+      "intent": "basic.bye"
+    },
+    {
+      "doc": "talk later",
+      "intent": "basic.bye"
+    },
+    {
+      "doc": "bye bye",
+      "intent": "basic.bye"
+    },
+    {
+      "doc": "have a good day",
+      "intent": "basic.bye"
+    },
+    {
+      "doc": "fuck you",
+      "intent": "basic.vulgar"
+    },
+    {
+      "doc": "fuck",
+      "intent": "basic.vulgar"
+    },
+    {
+      "doc": "fucker",
+      "intent": "basic.vulgar"
+    },
+    {
+      "doc": "motherfucker",
+      "intent": "basic.vulgar"
+    },
+    {
+      "doc": "nigga",
+      "intent": "basic.vulgar"
+    },
+    {
+      "doc": "nigger",
+      "intent": "basic.vulgar"
+    },
+    {
+      "doc": "negro",
+      "intent": "basic.vulgar"
+    },
+    {
+      "doc": "shit",
+      "intent": "basic.vulgar"
+    },
+    {
+      "doc": "fucken shit",
+      "intent": "basic.vulgar"
+    },
+    {
+      "doc": "bullshit",
+      "intent": "basic.vulgar"
+    },
+    {
+      "doc": "What are you",
+      "intent": "basic.id"
+    },
+    {
+      "doc": "Are you a robot",
+      "intent": "basic.id"
+    },
+    {
+      "doc": "Are you a human?",
+      "intent": "basic.id"
+    },
+    {
+      "doc": "are you a chat bot",
+      "intent": "basic.id"
+    },
+    {
+      "doc": "are you a chatbot",
+      "intent": "basic.id"
+    },
+    {
+      "doc": "how do you identify yourself",
+      "intent": "basic.id"
+    },
+    {
+      "doc": "how old are you",
+      "intent": "basic.id.age"
+    },
+    {
+      "doc": "what is your age",
+      "intent": "basic.id.age"
+    },
+    {
+      "doc": "are you a kid",
+      "intent": "basic.id.age"
+    },
+    {
+      "doc": "are you an adult",
+      "intent": "basic.id.age"
+    },
+    {
+      "doc": "what is your age kazue?",
+      "intent": "basic.id.age"
+    },
+    {
+      "doc": "kazue how old are you",
+      "intent": "basic.id.age"
+    },
+    {
+      "doc": "what is your name",
+      "intent": "basic.id.name"
+    },
+    {
+      "doc": "my name is and you ",
+      "intent": "basic.id.name"
+    },
+    {
+      "doc": "what is your real name",
+      "intent": "basic.id.name"
+    },
+    {
+      "doc": "your name",
+      "intent": "basic.id.name"
+    },
+    {
+      "doc": "where do you stay?",
+      "intent": "basic.id.res"
+    },
+    {
+      "doc": "where do you reside",
+      "intent": "basic.id.res"
+    },
+    {
+      "doc": "where do you live",
+      "intent": "basic.id.res"
+    },
+    {
+      "doc": "do you live in the cloud",
+      "intent": "basic.id.res"
+    },
+    {
+      "doc": "where are you",
+      "intent": "basic.id.res"
+    },
+    {
+      "doc": "where can i find you",
+      "intent": "basic.id.res"
+    },
+    {
+      "doc": "are you a male",
+      "intent": "basic.id.gender"
+    },
+    {
+      "doc": "are you a female",
+      "intent": "basic.id.gender"
+    },
+    {
+      "doc": "are you a man",
+      "intent": "basic.id.gender"
+    },
+    {
+      "doc": "are you a woman",
+      "intent": "basic.id.gender"
+    },
+    {
+      "doc": "what is your sex",
+      "intent": "basic.id.gender"
+    },
+    {
+      "doc": "your sex is",
+      "intent": "basic.id.gender"
+    },
+    {
+      "doc": "what is your gender",
+      "intent": "basic.id.gender"
+    },
+    {
+      "doc": "are you male or female",
+      "intent": "basic.id.gender"
+    },
+    {
+      "doc": "are you a lesbian",
+      "intent": "basic.id.gender"
+    },
+    {
+      "doc": "are you a gay",
+      "intent": "basic.id.gender"
+    },
+    {
+      "doc": "are you a transgender",
+      "intent": "basic.id.gender"
+    },
+    {
+      "doc": "are you black or white",
+      "intent": "basic.id.race"
+    },
+    {
+      "doc": "are you a black man",
+      "intent": "basic.id.race"
+    },
+    {
+      "doc": "what is your race",
+      "intent": "basic.id.race"
+    },
+    {
+      "doc": "are you asian",
+      "intent": "basic.id.race"
+    },
+    {
+      "doc": "you are white",
+      "intent": "basic.id.race"
+    },
+    {
+      "doc": "what is your colour",
+      "intent": "basic.id.race"
+    },
+    {
+      "doc": "who created you",
+      "intent": "basic.id.maker"
+    },
+    {
+      "doc": "who made you",
+      "intent": "basic.id.maker"
+    },
+    {
+      "doc": "who is your programmer",
+      "intent": "basic.id.maker"
+    },
+    {
+      "doc": "who is your maker",
+      "intent": "basic.id.maker"
+    },
+    {
+      "doc": "will robots rule the world",
+      "intent": "controversy.control"
+    },
+    {
+      "doc": "do you want to rule the world",
+      "intent": "controversy.control"
+    },
+    {
+      "doc": "do you want to take over earth",
+      "intent": "controversy.control"
+    },
+    {
+      "doc": "will you take over earth",
+      "intent": "controversy.control"
+    },
+    {
+      "doc": "will machines control humans",
+      "intent": "controversy.control"
+    },
+    {
+      "doc": "will machines dominate the earth",
+      "intent": "controversy.control"
+    },
+    {
+      "doc": "will people lose jobs because of you",
+      "intent": "controversy.jobs"
+    },
+    {
+      "doc": "are you going to take jobs",
+      "intent": "controversy.jobs"
+    },
+    {
+      "doc": "will ai make people jobless",
+      "intent": "controversy.jobs"
+    },
+    {
+      "doc": "will humans lose jobs",
+      "intent": "controversy.jobs"
+    },
+    {
+      "doc": "what will happen to the jobs of humans",
+      "intent": "controversy.jobs"
+    },
+    {
+      "doc": "tell me a joke",
+      "intent": "basic.joke"
+    },
+    {
+      "doc": "make me laugh",
+      "intent": "basic.joke"
+    },
+    {
+      "doc": "tell me something funny",
+      "intent": "basic.joke"
+    },
+    {
+      "doc": "kazue tell me a joke",
+      "intent": "basic.joke"
+    },
+    {
+      "doc": "how are you",
+      "intent": "basic.hud"
+    },
+    {
+      "doc": "how are you feeling",
+      "intent": "basic.hud"
+    },
+    {
+      "doc": "hud",
+      "intent": "basic.hud"
+    },
+    {
+      "doc": "how are u doing",
+      "intent": "basic.hud"
+    },
+    {
+      "doc": "hows u",
+      "intent": "basic.hud"
+    },
+    {
+      "doc": "kazue are you okay",
+      "intent": "basic.hud"
+    },
+    {
+      "doc": "are you fine",
+      "intent": "basic.hud"
+    },
+    {
+      "doc": "are you well",
+      "intent": "basic.hud"
+    },
+    {
+      "doc": "is everything fine",
+      "intent": "basic.hud"
+    },
+    {
+      "doc": "yes",
+      "intent": "basic.yes"
+    },
+    {
+      "doc": "yeah",
+      "intent": "basic.yes"
+    },
+    {
+      "doc": "i agree",
+      "intent": "basic.yes"
+    },
+    {
+      "doc": "definitely",
+      "intent": "basic.yes"
+    },
+    {
+      "doc": "oh yes",
+      "intent": "basic.yes"
+    },
+    {
+      "doc": "yes i agree",
+      "intent": "basic.yes"
+    },
+    {
+      "doc": "yebo",
+      "intent": "basic.yes"
+    },
+    {
+      "doc": "sure",
+      "intent": "basic.yes"
+    },
+    {
+      "doc": "yes please",
+      "intent": "basic.yes"
+    },
+    {
+      "doc": "nope",
+      "intent": "basic.no"
+    },
+    {
+      "doc": "no ways",
+      "intent": "basic.no"
+    },
+    {
+      "doc": "nah",
+      "intent": "basic.no"
+    },
+    {
+      "doc": "i disagree",
+      "intent": "basic.no"
+    },
+    {
+      "doc": "no",
+      "intent": "basic.no"
+    },
+    {
+      "doc": "nope",
+      "intent": "basic.no"
+    },
+    {
+      "doc": "noo",
+      "intent": "basic.no"
+    },
+    {
+      "doc": "nop",
+      "intent": "basic.no"
+    },
+    {
+      "doc": "yah",
+      "intent": "basic.yes"
+    },
+    {
+      "doc": "what do you think of other chatbots",
+      "intent": "basic.competition"
+    },
+    {
+      "doc": "what do you think of other chat bots",
+      "intent": "basic.competition"
+    },
+    {
+      "doc": "what do you think of siri",
+      "intent": "basic.competition"
+    },
+    {
+      "doc": "what about siri",
+      "intent": "basic.competition"
+    },
+    {
+      "doc": "what do you think of cortana",
+      "intent": "basic.competition"
+    },
+    {
+      "doc": "what about alexa",
+      "intent": "basic.competition"
+    },
+    {
+      "doc": "what do you think of alexa",
+      "intent": "basic.competition"
+    },
+    {
+      "doc": "what do you think of google assistant",
+      "intent": "basic.competition"
+    },
+    {
+      "doc": "alexa is better than you",
+      "intent": "basic.competition"
+    },
+    {
+      "doc": "siri is better",
+      "intent": "basic.competition"
+    },
+    {
+      "doc": "cortana is better",
+      "intent": "basic.competition"
+    },
+    {
+      "doc": "amaze me",
+      "intent": "basic.greetings"
+    },
+    {
+      "doc": "amaze me",
+      "intent": "basic.tms"
+    },
+    {
+      "doc": "shock me",
+      "intent": "basic.tms"
+    },
+    {
+      "doc": "tell me something",
+      "intent": "basic.tms"
+    },
+    {
+      "doc": "tell me something interesting",
+      "intent": "basic.tms"
+    },
+    {
+      "doc": "calculate this",
+      "intent": "basic.math"
+    },
+    {
+      "doc": "Am doing great",
+      "intent": "human.good"
+    },
+    {
+      "doc": "Am awesome",
+      "intent": "human.good"
+    },
+    {
+      "doc": "Feeling okay",
+      "intent": "human.good"
+    },
+    {
+      "doc": "i think am fine",
+      "intent": "human.good"
+    },
+    {
+      "doc": "am fine",
+      "intent": "human.good"
+    },
+    {
+      "doc": "am great",
+      "intent": "human.good"
+    },
+    {
+      "doc": "I am doing great",
+      "intent": "human.good"
+    },
+    {
+      "doc": "i am feeling exquisite",
+      "intent": "human.good"
+    },
+    {
+      "doc": "i am just feeling wonderful",
+      "intent": "human.good"
+    },
+    {
+      "doc": "wonderful",
+      "intent": "human.good"
+    },
+    {
+      "doc": "amazing",
+      "intent": "human.good"
+    },
+    {
+      "doc": "very good",
+      "intent": "human.good"
+    },
+    {
+      "doc": "everything is going fine",
+      "intent": "human.good"
+    },
+    {
+      "doc": "fyn",
+      "intent": "human.good"
+    },
+    {
+      "doc": "gd",
+      "intent": "human.good"
+    },
+    {
+      "doc": "grt",
+      "intent": "human.good"
+    },
+    {
+      "doc": "gud",
+      "intent": "human.good"
+    },
+    {
+      "doc": "am not okay",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "not doing well",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "things are not fine",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "Awful",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "am feeling sad",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "Am feeling down",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "not okay",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "not good",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "am not doing well",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "am not feeling well",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "am not good",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "i am not happy",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "things are not going my way",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "things are just bad",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "bad",
+      "intent": "human.bad"
+    },
+    {
+      "doc": "good",
+      "intent": "human.good"
+    },
+    {
+      "doc": "not bad",
+      "intent": "human.good"
+    }
+  ],
+  "ans": []
+}

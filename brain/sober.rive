@@ -1,0 +1,14 @@
+> topic drunk
+
+    + basicno
+    - I knew it. The things you type are off. {topic=random}
+    - That was obvious. {topic=random}
+
+    + basicyes
+    - Okay, maybe I am just the one failing to understand you. {topic=random}
+    - You are lying! But anyway lets leave it.{topic=random}
+
+    + * 
+    - You are drunk. Lets speak when you are sober{topic=random}
+
+< topic
